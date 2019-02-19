@@ -1,0 +1,25 @@
+= Antora OpenShift template
+
+This template allows to build an Antora site easily.
+
+== Use
+
+Clone this repository and create template in your project:
+```
+oc create -f openshift-antora-template.yaml
+```
+
+The application is ready to use in the openshift catalog.
+
+== site.yml
+
+The example playbook provided in this repository is a copy of
+link:https://gitlab.com/antora/demo/demo-site/blob/master/site.yml[the original demo].
+
+== Customization
+
+Modify site.yml playbook to point other repositories.
+
+Tip: you can build all your site in the same repository pointing start_path to modules.
+
+Tip: url allows to use link:https://docs.antora.org/antora/2.0/playbook/playbook-schema/#sources-url-key[filesystem paths] so you don't need to clone other repos.
