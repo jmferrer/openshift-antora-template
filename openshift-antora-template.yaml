@@ -75,6 +75,8 @@ objects:
           kind: DockerImage
           name: antora/antora:latest
       type: Docker
+      dockerStrategy:
+        noCache: true
     triggers:
     - type: ImageChange
     - type: ConfigChange
