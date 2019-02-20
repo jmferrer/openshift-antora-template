@@ -1,4 +1,4 @@
-//var repo = "git.paradigmadigital.com/santalucia/arquitectura/portal/indice.git"
+//var repo = "github.com/elmanytas/openshift-antora-template.git"
 //var newBranches = "newbranches"
 repo = process.argv[2];
 newBranches = process.argv[3];
