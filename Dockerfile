@@ -1,4 +1,4 @@
-FROM antora/antora
+FROM quay.io/jmferrer/antora
 
 RUN npm install http-server -g
 
